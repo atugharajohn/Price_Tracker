@@ -1,9 +1,3 @@
-"""Full Doku on: https://github.com/NapoII/netcup_egg_tracker"
------------------------------------------------
-Dieses Python-Skript ruft Produktinformationen von www.netcup.de ab und speichert sie in Textdateien. Der Dateiname enthält den Preis und die Produktinformationen. Automatische Aktualisierung alle 10 Minuten.
-------------------------------------------------
-"""
-
 import requests
 import json
 import time
@@ -39,7 +33,7 @@ def main():
                 name = f"{price}Euro_{egg['id']}__{egg['title']}.txt"
                 name = name.replace("/", "_").replace("|", "_").replace("\\", "_").replace(":", "_").replace("*", "_").replace("?", "_").replace('"', "_").replace("<", "_").replace(">", "_")
                 with open(name, "w") as file:
-                    file.write(f"https://www.netcup.de/bestellen/produkt.php?produkt={egg['product_id']}&hiddenkey={egg['product_key']}\n{json.dumps(egg)}\n{r}")
+                    file.write(f"https://www.netcup.de/bestellen/produkt.php?produkt={egg['product_id']}&hiddenkey={egg['product_key']}&ref=230003\n{json.dumps(egg)}\n{r}")
             except Exception as e:
                 print(f"Error: {e}")
         print(f"\n\n Time Sleep - {10*60}")
