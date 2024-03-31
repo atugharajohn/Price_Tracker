@@ -1,7 +1,7 @@
 [![github/NapoII/netcup_egg_tracker](https://raw.githubusercontent.com/NapoII/netcup_egg_tracker/main/README_img/Readme_top.png)](https://github.com/NapoII/netcup_egg_tracker)
 [![downloads/total](https://img.shields.io/github/downloads/NapoII/netcup_egg_tracker/total)](https://github.com/NapoII/netcup_egg_tracker/archive/refs/heads/main.zip) [![github/repo-size](https://img.shields.io/github/repo-size/NapoII/netcup_egg_tracker)](https://github.com/NapoII/netcup_egg_tracker/archive/refs/heads/main.zip) [![github/license](https://img.shields.io/github/license/NapoII/netcup_egg_tracker)](https://github.com/NapoII/netcup_egg_tracker/blob/main/LICENSE) [![github/last-commit](https://img.shields.io/github/downloads/NapoII/netcup_egg_tracker/total)](https://img.shields.io/github/issues/NapoII/netcup_egg_tracker?style=plastic) [![github/issues_open](https://img.shields.io/github/issues/NapoII/netcup_egg_tracker?style=plastic)](https://img.shields.io/github/issues-raw/NapoII/netcup_egg_tracker) [![github/stars](https://img.shields.io/github/stars/NapoII/netcup_egg_tracker?style=social)](https://github.com/NapoII/netcup_egg_tracker/stargazers) [![discord](https://img.shields.io/discord/190307701169979393)](https://discord.gg/knTKtKVfnr)
 
-Dieses Python-Skript sucht nach versteckten "Eiern" auf der Website www.netcup.de und listet die Sonderangebote in Textdateien auf.
+🐰🥚 Willkommen zur großen Oster-Eiersuche auf der Sonderangebotsseite von www.netcup.de! Dieses spezielle Python-Skript durchstöbert die Seite nach versteckten Osterangeboten und speichert sie in Textdateien. 🐣🌼 Automatische Aktualisierung alle 2 Minuten, damit Sie keine versteckten Schätze verpassen! 🔄🔎
 
 ## 📝 Table of Contents
 + [Demo / Working](#demo)
