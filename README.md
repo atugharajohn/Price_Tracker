@@ -10,7 +10,7 @@
 + [Buy me a coffee](#coffee)
 + [LICENSE](#LICENSE)
 ## 🎥 Demo / Working <a name = "demo"></a>
-![Bsp]([Pfad/zum/Bild.png](https://i.imgur.com/YE1GK5y.png))
+![BSP](https://i.imgur.com/Js1UvF1.png)
 
 ## 💻 Install <a name = "usage"></a>
 ```cmd
