@@ -33,9 +33,12 @@ def get_price_formatted(price):
     return price.replace(",", ".").replace("&euro;", "EUR").replace(" ", "")
 
 def main():
+    current_year = datetime.now().year  # Aktuelles Jahr abrufen
+    folder_path = f"eggs_{current_year}"  # Ordnername mit aktuellem Jahr erstellen
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+        
     while True:
-        current_year = datetime.now().year  # Aktuelles Jahr abrufen
-        folder_path = f"eggs_{current_year}"  # Ordnername mit aktuellem Jahr erstellen
         
         for r in refs:
             try:
@@ -44,9 +47,6 @@ def main():
                 price = get_price_formatted(egg["price"])
                 name = f"{price}Euro_{egg['id']}__{egg['title']}.json"
                 name = name.replace("/", "_").replace("|", "_").replace("\\", "_").replace(":", "_").replace("*", "_").replace("?", "_").replace('"', "_").replace("<", "_").replace(">", "_")
-                
-                if not os.path.exists(folder_path):
-                    os.makedirs(folder_path)
                 
                 egg['original_url'] = f"https://www.netcup.de/bestellen/produkt.php?produkt={egg['product_id']}&ref=230003&hiddenkey={egg['product_key']}"
                 egg['found_url'] = f"https://www.netcup.de{r}"  # Hinzufügen der gefundenen URL
