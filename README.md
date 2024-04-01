@@ -2,18 +2,18 @@
 
 ## 📝 Table of Contents
 + [Demo / Working](#demo)
-+ [Install](#usage)
-+ [How it works](#Use)
-+ [LICENSE](#LICENSE)
++ [Install](#install)
++ [How it works](#useage)
++ [LICENSE](#license)
 ## 🎥 Demo / Working <a name = "demo"></a>
 ![BSP](https://raw.githubusercontent.com/NSG22/netcup_egg_tracker/main/README_img/demo.png)
 
-## 💻 Install <a name = "usage"></a>
+## 💻 Install <a name = "install"></a>
 ```cmd
 git clone https://github.com/NSG22/netcup_egg_tracker.git
 pip install -r requirements.txt
 ```
-## 💭 How it works <a name = "Use"></a>
+## 💭 How it works <a name = "useage"></a>
 
 start netcup_egg_tracker.py directly from the folder or run in cmd:
 ```cmd
@@ -29,7 +29,7 @@ python netcup_egg_tracker.py
 - Die Dateinamen enthalten den Preis und die Produktinformationen, um die Angebote leicht identifizieren zu können.
 - Stellen Sie sicher, dass das Skript über die erforderlichen Berechtigungen zum Schreiben von Dateien im aktuellen Verzeichnis verfügt.
 
-## 📚 LICENSE <a name = "LICENSE"></a>
+## 📚 LICENSE <a name = "license"></a>
 
 [GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)
 
