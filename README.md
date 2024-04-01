@@ -4,7 +4,6 @@
 + [Demo / Working](#demo)
 + [Install](#usage)
 + [How it works](#Use)
-+ [Buy me a coffee](#coffee)
 + [LICENSE](#LICENSE)
 ## 🎥 Demo / Working <a name = "demo"></a>
 ![BSP](https://raw.githubusercontent.com/NSG22/netcup_egg_tracker/main/README_img/demo.png)
