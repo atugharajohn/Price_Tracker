@@ -3,6 +3,9 @@
 
 🐰🥚 Willkommen zur großen Oster-Eiersuche auf der Sonderangebotsseite von www.netcup.de! Dieses spezielle Python-Skript durchstöbert die Seite nach versteckten Osterangeboten und speichert sie in Textdateien. 🐣🌼 Automatische Aktualisierung alle 2 Minuten, damit Sie keine versteckten Schätze verpassen! 🔄🔎
 
+Besuchen Sie [napo-ii.de](http://napo-ii.de/) für den Live-Tracker mit den aktuellen Eggs vom Netcup-Event.
+
+
 ## 📝 Table of Contents
 + [Demo / Working](#demo)
 + [Install](#usage)
