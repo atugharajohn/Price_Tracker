@@ -12,11 +12,21 @@ refs = [
     "/",
     "/hosting",
     "/bestellen/domainangebote.php",
+    "/bestellen/softwareangebote.php"
     "/ssl-zertifikate/",
     "/ueber-netcup/",
     "/ueber-netcup/hardware-infrastruktur.php",
     "/ueber-netcup/ddos-schutz-filter.php",
-    "/ueber-netcup/auszeichnungen.php"
+    "/ueber-netcup/auszeichnungen.php",
+    "/ueber-netcup/zertifizierungen.php",
+    "/ueber-netcup/partner.php",
+    "/groupware/",
+    "/professional/",
+    "/professional/dedizierte-server/",
+    "/professional/managed-server/",
+    "/professional/colocation/",
+    "/professional/softwareentwicklung/",
+    
 ]
 
 def get_price_formatted(price):
