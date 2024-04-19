@@ -16,3 +16,12 @@ To run the script, simply execute the following command:
 ```bash
 python main.py
 
+## Dependencies
+This script requires the following Python libraries:
+- requests
+- json
+- time
+- os
+- logging
+- datetime
+Make sure to install these dependencies before running the script.
